@@ -26,6 +26,7 @@
     "zone.js": "0.5.10"
   },
   "scripts": {
+    "preinstall": "npm i -g concurrently",
     "start": "concurrently \"node server\" \"nodemon ./server/server.js\""
   }
 }
