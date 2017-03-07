@@ -1,0 +1,1 @@
+module.exports = require("npm:express@4.14.1/index");
